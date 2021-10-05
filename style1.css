@@ -1,0 +1,118 @@
+body{
+    max-height: 500px;
+}
+nav{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 50%;
+}
+
+
+.cercle{
+    width: 700px;
+    height: 650px;
+    background-color: rgb(167, 124, 90);
+    position: absolute;
+    border-radius: 50% 0 0 50%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+}
+.cercle img{
+    position: absolute;
+    margin: 130px;
+
+}
+.sign{
+    position:absolute;
+    margin: 2px;
+    padding: 2px;
+    top: 0;
+    right: 0;
+
+}
+.btn1{
+    border-radius: 1px;
+    background-color: white;
+    border: none;
+}
+.buttonD {
+    background-color: rgb(255, 123, 0);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 16px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
+    background-color: #f4f4f5;
+    padding: 10px;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 60px;
+  }
+  
+  .grid-container > div {
+    background-color: white;
+    text-align: center;
+    font-size: 14px;
+    width: 200px;
+  }
+  .grid-container a{
+      text-decoration: none;
+      color: black;
+  }
+  .grid-container .premier{
+      border-radius: 4px;
+      background-color: rgb(233, 215, 57);
+  }
+  .grid-container .deuxieme{
+      border-radius: 4px;
+      background-color: rgb(136, 214, 121);
+  }
+  .grid-container .troisiem input{
+      background-color: white;
+  }
+  .grid-container .quatre input{
+      margin-top: 20px;
+  }
+  .dernier{
+      position: absolute;
+      display: grid;
+      grid-template-columns:  auto auto auto;
+      grid-gap: 3px;
+      background-color: none;
+      padding: 5px;
+      width:300px;
+      right: 0;
+      margin-top: 100px;
+
+  }
+
+  .dernier input {
+    background-color: none;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 14px;
+    color:#f4f4f5
+  }
+  .buttonz{
+      background: none;
+  }
+  
